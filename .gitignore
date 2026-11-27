@@ -1,0 +1,83 @@
+# ==========================================
+# Visual Studio & C# (.NET Framework)
+# ==========================================
+
+# Arquivos específicos do usuário e cache do Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Resultados de compilação (Build)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Pacotes NuGet (.NET Framework)
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Resultados de testes e cobertura
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+# Arquivos de publicação e cache
+publish/
+*.publishsettings
+*.Cache
+*.pidb
+*.scc
+*.vssscc
+*.vspscc
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# ==========================================
+# MariaDB & MySQL Workbench
+# ==========================================
+
+# Backups automáticos e arquivos temporários do MySQL Workbench
+# (Mantém o arquivo de modelo .mwb, caso você use diagramas)
+*.mwb.bak
+*.mwb.beforefix
+
+# Arquivos internos/binários e logs do banco de dados
+*.ibd
+*.frm
+*.MYD
+*.MYI
+*.err
+*.pid
+*.sock
+*.bak
+
+# Garante que o dump SQL seja versionado no Git
+!*.sql
+
+# ==========================================
+# Sistema Operacional
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
